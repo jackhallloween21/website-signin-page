@@ -34,12 +34,12 @@ if(a.value=="" || b.value==""){
 f() 
 document.getElementById("a").style.border="3px solid red" 
 document.getElementById("b").style.border="3px solid red" 
-bt.value="Pahila data tak" 
+bt.value="Before proceeding check your user name and password" 
 } 
 else{ 
 document.getElementById("a").style.border="3px solid green" 
 document.getElementById("b").style.border="3px solid green" 
-bt.value="Ha thik ahe ata" 
+bt.value="Seems correct! Well Done." 
 bt.style.left="120px"; 
 } 
 } 
@@ -55,16 +55,22 @@ flag=1
 } 
 } 
 </script> 
+ <style>
+body {
+  background-image: url('https://img.freepik.com/free-photo/cool-geometric-triangular-figure-neon-laser-light-great-backgrounds-wallpapers_181624-9331.jpg');
+  background-repeat: no-repeat;
+}
+</style>
 </head> 
 <body> 
 <div class="outer"> 
-<h1 style="text-align:center">Legend form</h1> 
+<h1 style="text-align:center">Sign in Page for Legends</h1> 
 <p>Enter Id</p> 
 <input class="in" type="text" placeholder="Enter id" id="a"/> 
 <p>Enter Confirm Pass</p> 
 <input class="in" type="password" placeholder="Enter password" id="b"/> 
 <br> 
-<input type="submit" onmouseenter="fa()" onclick="alert('waaaa')" id="bt" /> 
+<input type="submit" onmouseenter="fa()" onclick="alert('yesssss!')" id="bt" /> 
  
 </div> 
  
